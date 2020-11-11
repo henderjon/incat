@@ -9,7 +9,7 @@ PREFIX=/usr/local
 BIN=incat
 BINS=.
 HEAD=$(shell git describe --dirty --long --tags 2> /dev/null  || git rev-parse --short HEAD)
-TIMESTAMP=$(shell date '+%Y-%m-%dT%H:%M:%S %z %Z')
+TIMESTAMP=$(shell TZ=UTC date '+%FT%T %Z')
 
 LDFLAGS="-X 'main.buildVersion=$(HEAD)' -X 'main.buildTimestamp=$(TIMESTAMP)' -X 'main.compiledBy=$(shell go version)'" # `-s -w` removes some debugging info that might not be necessary in production (smaller binaries)
 
