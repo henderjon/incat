@@ -13,6 +13,9 @@ OPTIONS
         the name of the template file
   -token string
         the string being replaced (default "TOKEN")
+
+EXAMPLE
+  $ cat giant.txt | incat -template small.tmpl > combined.txt
 ```
 
 
