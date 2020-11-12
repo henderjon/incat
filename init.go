@@ -16,7 +16,7 @@ SYNOPSIS
   %[1]s -token TOKEN -template ""
 
 DESCRIPTION
-  Often it is desirable to insert one file into the middle of another
+  It is sometimes desirable to combine two files by inserting one into the middle of another.
 
 OPTIONS
 %[2]s
