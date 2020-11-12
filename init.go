@@ -20,6 +20,9 @@ DESCRIPTION
 
 OPTIONS
 %[2]s
+EXAMPLE
+  $ cat giant.txt | %[1]s -template small.tmpl > combined.txt
+
 VERSION
   version:  %[3]s
   compiled: %[4]s
@@ -49,12 +52,10 @@ func init() {
 
 	if len(fname) < 1 {
 		stderr.Fatalln("-template is required; -help for more info")
-		os.Exit(1)
 	}
 
 	if len(token) < 1 {
 		stderr.Fatalln("-token is required; -help for more info")
-		os.Exit(1)
 	}
 }
 
