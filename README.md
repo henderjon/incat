@@ -1,6 +1,3 @@
-# incat
-a cli util that replaces TOKEN in TEMPLATE with STDIN
-
 ```
 NAME
   incat - replaces TOKEN in TEMPLATE with STDIN
