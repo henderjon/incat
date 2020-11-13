@@ -21,7 +21,7 @@ EXAMPLE
 To see a *very* simple demo:
 
 ```
-$ cd example && . ./example.sh
+$ cd example && . ./demo.sh
 ```
 
 
