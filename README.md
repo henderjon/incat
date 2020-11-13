@@ -18,5 +18,10 @@ EXAMPLE
   $ cat giant.txt | incat -template small.tmpl > combined.txt
 ```
 
+To see a *very* simple demo:
+
+```
+$ cd example && . ./example.sh
+```
 
 
